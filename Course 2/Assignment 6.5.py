@@ -3,7 +3,7 @@
 
 text = "X-DSPAM-Confidence:    0.8475";
 
-#going to use find to locate the : and len to build the index of the part of the string we want
+#using find to search for ':' and len to build the index of the part of the string we want
 #convert and print
 
 print(float(text[text.find(':')+1:len(text)]))

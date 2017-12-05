@@ -67,4 +67,4 @@ for x in js['comments']:
     total = total + tmp2
     tmp = tmp+1
 print('Count: ', tmp)
-print('Sum: ',total)
+print('Sum: ', total)
